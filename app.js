@@ -23,4 +23,5 @@ function getData(obj) {
     console.log('details are:');
 }
 getData({ name: "Darksoul", age: 20, isGraduated: false });
+let alias = 234;
 //# sourceMappingURL=app.js.map

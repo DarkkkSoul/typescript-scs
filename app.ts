@@ -29,3 +29,15 @@ function getData(obj:Details):void{
 	console.log('details are:');
 }
 getData({name:"Darksoul",age:20,isGraduated:false});
+// EXTENDED INTERFACES
+interface User{
+	name:string,
+	age:number
+}
+interface Admin extends User{
+	dept:string
+}
+
+//TYPE ALIASING
+type nsn = number | string | null;
+let alias:nsn = 234;
