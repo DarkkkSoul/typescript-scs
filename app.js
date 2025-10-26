@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// Data types
+// DATATYPES
 let name = "darksoul"; //string
 let age = 20; // number
 let isGraduated = false; // boolean
@@ -19,4 +19,8 @@ function returnData() {
 } //void
 let c;
 let d;
+function getData(obj) {
+    console.log('details are:');
+}
+getData({ name: "Darksoul", age: 20, isGraduated: false });
 //# sourceMappingURL=app.js.map

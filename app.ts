@@ -1,4 +1,4 @@
-// Data types
+// DATATYPES
 let name: string = "darksoul"; //string
 let age: number = 20; // number
 let isGraduated: boolean = false;  // boolean
@@ -16,3 +16,16 @@ function returnData(): void {
 } //void
 let c: null;
 let d: undefined;
+
+
+// INTERFACES
+interface Details {
+    name: string;
+    age: number;
+    isGraduated: boolean;
+    address?: string;
+}
+function getData(obj:Details):void{
+	console.log('details are:');
+}
+getData({name:"Darksoul",age:20,isGraduated:false});
