@@ -41,3 +41,15 @@ interface Admin extends User{
 //TYPE ALIASING
 type nsn = number | string | null;
 let alias:nsn = 234;
+
+// CLASSES 
+class BottleMaker{
+    constructor(public name:string, public price:number, public isMetal:boolean){
+    }
+
+}
+let b1 = new BottleMaker("Milton", 1000, true);
+// Access modifiers, readonly
+// optional properties, paramter properties
+// getters and setters
+// static, abstract classes

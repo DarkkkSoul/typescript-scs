@@ -24,4 +24,20 @@ function getData(obj) {
 }
 getData({ name: "Darksoul", age: 20, isGraduated: false });
 let alias = 234;
+// CLASSES 
+class BottleMaker {
+    name;
+    price;
+    isMetal;
+    constructor(name, price, isMetal) {
+        this.name = name;
+        this.price = price;
+        this.isMetal = isMetal;
+    }
+}
+let b1 = new BottleMaker("Milton", 1000, true);
+// Access modifiers, readonly
+// optional properties, paramter properties
+// getters and setters
+// static, abstract classes
 //# sourceMappingURL=app.js.map
